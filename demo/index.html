@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+        <link rel="import" href="../simple-search.html" />
+
+        <title>Simple Search - Demo</title>
+
+        <style is="custom-style">
+            :root {
+                --search-primary-color: #59BEDF;
+                --paper-input-container-color: #59BEDF;
+                --paper-input-container-focus-color: #59BEDF;
+            }
+        </style>
+
+    </head>
+
+    <body unresolved>
+
+        <div>
+            <div style="width: 700px">
+                <p>Static mode</p>
+                <simple-search static-open></simple-search>
+            </div>
+            <div style="width: 700px">
+                <p>Dynamic mode</p>
+                <simple-search></simple-search>
+            </div>
+        </div>
+
+    </body>
+
+</html>
